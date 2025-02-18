@@ -1,6 +1,5 @@
 import { Outlet } from "react-router";
 import Header from "./home/header";
-import Footer from "./home/footer";
 
 export default function AppLayout() {
   return (
@@ -9,7 +8,6 @@ export default function AppLayout() {
       <div className="px-10 py-10 w-7xl h-full">
         <Outlet />
       </div>
-        <Footer/>
     </main>
   );
 }

@@ -8,6 +8,15 @@ type ProjectT = {
     openSource?: boolean
 }
 
+type LearnerT = {
+    id: string;
+    profilePicture: string;
+    name: string;
+    url: string;
+    best: string;
+}
+
 export type {
-    ProjectT
+    ProjectT,
+    LearnerT
 }

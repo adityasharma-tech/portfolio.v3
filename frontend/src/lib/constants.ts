@@ -1,4 +1,4 @@
-import { ProjectT } from "./types";
+import { LearnerT, ProjectT } from "./types";
 
 export const projects: ProjectT[] = [
   {
@@ -62,6 +62,38 @@ export const projects: ProjectT[] = [
     openSource: true,
   },
 ];
+
+export const learners: LearnerT[] = [
+  {
+    id: crypto.randomUUID(),
+    name: 'Code with Harry',
+    best: 'everything',
+    profilePicture: 'https://yt3.googleusercontent.com/ytc/AIdro_kX3sdbuu3KFmRPsmlu0R5Rx_BhpxwupjtvJmkEdNfla7w=s160-c-k-c0x00ffffff-no-rj',
+    url: 'https://youtube.com/@codewithharry'
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Hitesh Sir",
+    best: "Backend (everything)",
+    profilePicture: 'https://pbs.twimg.com/profile_images/1724344976715468800/MasktpKz_400x400.jpg',
+    url: 'https://x.com/Hiteshdotcom'
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Piyush Sir",
+    best: "Backend & Xperience",
+    profilePicture: 'https://www.piyushgarg.dev/_next/image?url=%2Fimages%2Favatar.png&w=640&q=75',
+    url: 'https://www.youtube.com/@piyushgargdev'
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Mannu Sir',
+    best: 'Learning frontend',
+    profilePicture: 'https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg',
+    url: 'https://x.com/mannupaaji'
+  },
+]
+
 
 /* 
 "echarts",
