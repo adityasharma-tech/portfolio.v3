@@ -4,7 +4,7 @@ export default function Footer() {
     <div>
       <img src="rounded-icon.png" className="h-10" />
       <div className="max-w-lg text-sm mt-6">
-      I am doing freelancing from a year. If you need to hire me or want to <br/> contact me, ping me on X, linked.
+      I am doing freelancing from a year. If you need to hire me or want to <br className="md:block hidden"/> contact me, ping me on X, linked.
       </div>
     </div>
     <div className="flex flex-col gap-y-3">
