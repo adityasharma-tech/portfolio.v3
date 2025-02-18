@@ -1,4 +1,4 @@
-export default function Learning() {
+export default function LearningSection() {
     return (
       <div>Learning</div>
     )
