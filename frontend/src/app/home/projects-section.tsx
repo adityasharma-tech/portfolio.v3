@@ -8,7 +8,7 @@ export default function ProjectSection() {
       <div className="flex justify-center">
         <span className="text-3xl">My best projects</span>
       </div>
-      <div className="grid md:grid-cols-3 gap-y-3 gap-x-6 py-10">
+      <div className="grid md:grid-cols-3 gap-y-3 md:px-0 px-4 gap-x-6 py-10">
         {projects.map((project) => (
           <Project key={project.id} {...project} />
         ))}
@@ -19,7 +19,7 @@ export default function ProjectSection() {
 
 function Project(props: PropsWithChildren<ProjectT>) {
   return (
-    <article className="w-sm p-1 flex flex-col bg-[#181C14] group pb-3">
+    <article className="md:w-sm w-full p-1 flex flex-col bg-[#181C14] group pb-3">
       <div className="relative">
         <img src={props.thumbnail} />
         {props.openSource ? (
