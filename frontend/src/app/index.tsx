@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <div className="sticky top-10 z-50 flex justify-end">
-        <div className="gap-x-2 bg-amber-200 inline-flex rounded-full pl-2 text-neutral-900 text-sm items-center">
+        <div className="gap-x-2 bg-amber-200 md:inline-flex hidden rounded-full pl-2 text-neutral-900 text-sm items-center">
           Design mode{" "}
           <Switch.Root
             onCheckedChange={(checked) => {

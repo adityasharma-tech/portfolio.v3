@@ -4,11 +4,11 @@ import { ProjectT } from "../../lib/types";
 
 export default function ProjectSection() {
   return (
-    <section className="flex flex-col items-center w-full min-h-[70vh]">
+    <section className="flex flex-col md:my-0 my-20 items-center w-full md:min-h-[70vh]">
       <div className="flex justify-center">
         <span className="text-3xl">My best projects</span>
       </div>
-      <div className="grid grid-cols-3 gap-x-6 py-10">
+      <div className="grid md:grid-cols-3 gap-y-3 gap-x-6 py-10">
         {projects.map((project) => (
           <Project key={project.id} {...project} />
         ))}
@@ -19,7 +19,7 @@ export default function ProjectSection() {
 
 function Project(props: PropsWithChildren<ProjectT>) {
   return (
-    <article className="w-smp-1 flex flex-col bg-[#181C14] group pb-3">
+    <article className="w-sm p-1 flex flex-col bg-[#181C14] group pb-3">
       <div className="relative">
         <img src={props.thumbnail} />
         {props.openSource ? (

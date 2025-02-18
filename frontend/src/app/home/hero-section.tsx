@@ -4,10 +4,10 @@ export default function HeroSection() {
   const [clicked, setCliked] = useState(false);
   const programmerRef = useRef<HTMLSpanElement | null>(null);
   return (
-    <section className="h-[80%] px-20 flex flex-row w-full">
-      <div className="w-full h-full">
+    <section className="h-[80%] md:px-20 px-4 flex md:flex-row flex-col-reverse w-full">
+      <div className="w-full h-full md:py-0">
         <div className="h-full flex flex-col justify-center gap-y-4">
-          <h1 className="text-5xl font-semibold text-neutral-100 my-1 cursor-none">
+          <h1 className="md:text-5xl text-2xl font-semibold text-neutral-100 my-1 cursor-none">
             Hello, I am a{" "}
             <span
               ref={programmerRef}
@@ -25,7 +25,7 @@ export default function HeroSection() {
             </span>
             .
           </h1>
-          <h2 className="text-xl">
+          <h2 className="md:text-xl text-lg">
             I will try to do anything needed to launch a successful{" "}
             <span className="font-medium underline underline-offset-2">
               product
@@ -60,7 +60,7 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="w-[45%]">
+      <div className="md:w-[45%] md:mb-0 mb-10">
         <img src="/rounded-icon.png" className="h-full w-full object-contain" />
       </div>
     </section>

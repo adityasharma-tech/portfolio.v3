@@ -6,9 +6,9 @@ export default function LearningSection() {
   return (
     <section className="flex flex-col items-center w-full min-h-[40vh]">
       <div className="flex justify-center">
-        <span className="text-3xl">Where am I learning from? (Best combination)</span>
+        <span className="md:text-3xl text-2xl text-center">Where am I learning from? <br className="md:hidden"/> (Best combination)</span>
       </div>
-      <div className="grid grid-cols-4 py-10 gap-x-5">
+      <div className="grid md:grid-cols-4 py-10 gap-x-5 md:w-auto w-[90%]">
         {
           learners.map((learner)=>(
             <LearningCard key={learner.id} {...learner}/>
