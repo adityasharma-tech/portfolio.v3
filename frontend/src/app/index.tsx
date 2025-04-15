@@ -19,17 +19,6 @@ export default function Home() {
           <div className="border-l-2 border-neutral-400 h-full" />
           <span className="font-medium">Freelancer</span>
         </div>
-        <div onClick={()=>setDesignMode(!designMode)} className="gap-x-2 bg-amber-200 cursor-pointer md:inline-flex hidden rounded-full my-auto pl-2 text-neutral-900 text-sm items-center">
-          Design mode{" "}
-          <Switch.Root
-            checked={designMode}
-            onCheckedChange={setDesignMode}
-            className="SwitchRoot my-auto"
-            id="airplane-mode"
-          >
-            <Switch.Thumb className="SwitchThumb" />
-          </Switch.Root>
-        </div>
       </div>
       <HeroSection />
       <ProjectSection />
