@@ -35,7 +35,7 @@ export default function HeroSection() {
           <div className="flex flex-row gap-x-4">
             <a
               target="_blank"
-              href="https://i.adityasharma.live/x"
+              href="https://x.com/AdityaSharmaLve"
               onMouseDown={() => setCliked(true)}
               onMouseUp={() => setCliked(false)}
               className="relative px-8 group py-1.5 cursor-pointer my-5 text-neutral-900"

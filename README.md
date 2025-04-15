@@ -50,7 +50,7 @@
 
 ### Connect with me: <img alt="Aditya's skills" width="64px" height="30px" src="assets/handshake.gif" />
 
-<a href="https://x.com/AdityaSharma626">
+<a href="https://x.com/AdityaSharmaLve">
   <img align="left" alt="Aditya's Twitter" width="26px" src="assets/twitter_icon_color.svg" />
 </a>
 <a href="https://linkedin.com/in/adityasharmatech">
