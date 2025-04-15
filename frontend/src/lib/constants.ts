@@ -5,6 +5,26 @@ export const projects: ProjectT[] = [
     id: crypto.randomUUID(),
     thumbnail:
       "https://pbs.twimg.com/media/Gj-hF1rbIAAUgZZ?format=jpg&name=small",
+    name: "Synapse",
+    embed: `<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr"><a href="https://twitter.com/piyushgarg_dev?ref_src=twsrc%5Etfw">@piyushgarg_dev</a> <a href="https://twitter.com/Hiteshdotcom?ref_src=twsrc%5Etfw">@Hiteshdotcom</a> Sir, I tried to build the live streaming chat application with superchat and payment/payout gateway.<br>github: <a href="https://t.co/8YtLOJTUVN">https://t.co/8YtLOJTUVN</a><br>live at: <a href="https://t.co/HTCWv5kXY5">https://t.co/HTCWv5kXY5</a><br>Payout is not working due to razorpay activation delay.<br>Payment is working btw.demo <a href="https://t.co/RL36HULJyD">pic.twitter.com/RL36HULJyD</a></p>&mdash; Aditya Sharma (@AdityaSharmaLve) <a href="https://twitter.com/AdityaSharmaLve/status/1908537419659420120?ref_src=twsrc%5Etfw">April 5, 2025</a></blockquote>`,
+    about:
+      "Live superchat streaming platform with payment/payout gateway.",
+    url: "https://synapse.adityasharma.live",
+    tools: [
+      "echarts",
+      "radix-ui",
+      "react",
+      "zustand",
+      "typescript",
+      "cpp",
+    ],
+    github: "https://github.com/adityasharma-tech/synapse.git",
+    openSource: true
+  },
+  {
+    id: crypto.randomUUID(),
+    thumbnail:
+      "https://pbs.twimg.com/media/Gj-hF1rbIAAUgZZ?format=jpg&name=small",
     name: "Grafik Studio",
     about:
       "Build a useful product to help IoT developers to visualize the data coming from different sensors while they are debugging their great iot project. Plot multiple data points with logs using serial port on Grafik dashboard.",
