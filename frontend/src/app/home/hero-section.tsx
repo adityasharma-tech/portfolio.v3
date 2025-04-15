@@ -25,12 +25,8 @@ export default function HeroSection() {
             </span>
             .
           </h1>
-          <h2 className="md:text-xl text-lg">
-            I will try to do anything needed to launch a successful{" "}
-            <span className="font-medium underline underline-offset-2">
-              product
-            </span>{" "}
-            in the market except writing code in Assembly.
+          <h2 className="md:text-xl text-lg font-light text-neutral-100">
+            Doing freelancing, Turning Concepts into Impact, and building scalable web solutions that make a difference.
           </h2>
           <div className="flex flex-row gap-x-4">
             <a
