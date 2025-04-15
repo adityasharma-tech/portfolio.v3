@@ -1,16 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import HeroSection from "./home/hero-section";
 import ProjectSection from "./home/projects-section";
-import { Switch } from "radix-ui";
 import LearningSection from "./home/learning-section";
 import Footer from "./home/footer";
 
 export default function Home() {
-  const [designMode, setDesignMode] = useState(false);
-  React.useLayoutEffect(() => {
-    if (designMode) window.document.designMode = "on";
-    else window.document.designMode = "off";
-  }, [designMode]);
   return (
     <React.Fragment>
       <div className="sticky top-10 z-50 flex justify-between">
