@@ -97,7 +97,7 @@ function Project(props: PropsWithChildren<ProjectT>) {
               key={idx}
               src={`/icons/${tool}.png`}
               alt={tool}
-              className="h-5 w-5 object-contain bg-neutral"
+              className="h-5 w-5 object-contain"
             />
           ))}
         </div>

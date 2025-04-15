@@ -11,12 +11,13 @@ export const projects: ProjectT[] = [
       "Live superchat streaming platform with payment/payout gateway.",
     url: "https://synapse.adityasharma.live",
     tools: [
-      "echarts",
-      "radix-ui",
       "react",
-      "zustand",
-      "typescript",
-      "cpp",
+      "redux",
+      "express",
+      "redis",
+      "tailwindcss",
+      "socketio",
+      "razorpay"
     ],
     github: "https://github.com/adityasharma-tech/synapse.git",
     openSource: true
@@ -113,6 +114,16 @@ export const learners: LearnerT[] = [
     url: 'https://x.com/mannupaaji'
   },
 ]
+
+/**
+ * react
+ * redux
+ * express
+ * redis
+ * tailwindcss
+ * socketio
+ * razorpay
+ */
 
 
 /* 
